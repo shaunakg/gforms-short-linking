@@ -1,0 +1,19 @@
+{
+  "name": "gforms-short-linking",
+  "version": "1.0.0",
+  "description": "quick and easy zero-database short linking with customisable options such as caching, redirects, etc. uses google forms. optimally deployed on aws elastic beanstalk or similar PaaS.",
+  "main": "index.js",
+  "repository": "https://github.com/shaunakg/gforms-short-linking",
+  "author": "Shaunak G <hello@srg.codes>",
+  "license": "MIT",
+  "dependencies": {
+    "ackee-tracker": "https://github.com/shaunakg/ackee-tracker",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.15",
+    "node-fetch": "^2.6.1",
+    "xhr2": "^0.2.1"
+  }
+}
